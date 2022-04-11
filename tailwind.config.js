@@ -18,7 +18,7 @@ module.exports = {
         'textcolor': "#6d6e71",
       },
       backgroundImage: {
-        'main-bg': "url('/src/assets/bg-colour.png')",
+        'main-bg': "url('/src/assets/bg_colour.png')",
       }
     },
   },
