@@ -13,182 +13,199 @@
 </head>
 
 <body class="bg-main-bg bg-cover">
-    <header
-        class="flex flex-row items-center justify-between px-16 py-4 drop-shadow-lg bg-white text-xl text-textcolor">
-        <a href="index.html"><img src="assets/bp_logo.svg" alt="Logo" width="125px"></a>
-        <p class="hidden md:flex font-black">Partner Onboarding Portal</p>
-        <ul class="hidden md:flex flex-row gap-8">
-            <li><a href="#" class="hover:text-secondary">Help</a></li>
-            <li><a href="#" class="hover:text-secondary">About</a></li>
-        </ul>
-        <button class="md:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-        </button>
-    </header>
-    <div class="container">
-        <div class="flex flex-wrap items-center px-16 py-24">
-            <div class="w-full lg:w-1/2">
-                <div class="max-w-lg text-white md:mb-8 lg:mb-0">
-                    <h1 class="font-black text-5xl mb-16 sm:leading-tight lg:leading-normal">
-                        Before we begin...</h1>
-                    <p class="md:text-lg font-medium mb-16 max-w-lg">BigPay needs some information for onboarding your
-                        company. Kindly provide all required documents for review, and select <b>Finish</b> when you're
-                        done.</p>
-                    <a class="inline-flex items-center justify-center rounded-md text-lg font-bold border-2 border-white p-4 sm:mb-8 hover:bg-secondary transition duration-300 ease-in-out "
-                        href="end.html">Finish</a>
-                </div>
+    <header class="bg-white text-xl text-textcolor sticky">
+        <div class="container mx-auto">
+            <div class="flex flex-row items-center justify-between px-8 lg:px-16 py-4 ">
+                <a href="index.html"><img src="assets/bp_logo.svg" alt="Logo" width="125px"></a>
+                <p class="hidden md:flex font-black">Partner Onboarding Portal</p>
+                <ul class="hidden md:flex flex-row gap-8">
+                    <li><a href="#" class="hover:text-secondary">Help</a></li>
+                    <li><a href="#" class="hover:text-secondary">About</a></li>
+                </ul>
+                <button class="md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
             </div>
-            <div class="w-full lg:w-1/2 max-h-96 overflow-hidden overflow-y-scroll rounded-lg">
-                <div class="container bg-white">
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Due Diligence Form</p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Regulatory License Copy <i>(Certified True Copy)</i></p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Memorandum of Association/Articles of Incorporation or
-                            equivalent <i>(Certified True Copy)</i></p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Certificate of Incorporation body <i>(Certified True Copy)</i></p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Current AML/CTF Policies & Programs duly approved by
-                            the Board of Directors</p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Memorandum of Association/Articles of Incorporation or
-                            equivalent <i>(Certified True Copy)</i></p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Current STR policy
-                        </p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">List of Ultimate beneficial owners <i>(Stamped and Dated)</i></p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">ID Copies of shareholders <i>(Certified True Copy)</i></p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Organizational Chart <i>(Stamped and Dated)</i></p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">List of Board of Directors</p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">ID Copies of Board of Directors <i>(Certified True Copy)</i>
-                        </p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Copy of the list of Authorized Signatories, approved by the Board of
-                            Directors</p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">ID Copy of the Authorized Person who signs the agreement <i>(Certified True
-                                Copy)</i></p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">CCO/MLRD Profile</p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Proof of Business Address or Latest Utility Bill <i>(if different from the
-                                registered address)</i></p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Last Audited Financial Statement</p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Latest AML Audit Report</p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
-                    <div class="md:flex flex-row items-center justify-between border-2 p-4">
-                        <p class="font-bold">Tax Residence Certificate</p>
-                        <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
-                            <span class="px-2">Upload</span>
-                            <input type='file' class="hidden" />
-                        </label>
-                    </div>
+        </div>
+    </header>
+    <div class="container mx-auto">
+        <div class="flex flex-wrap items-center justify-between px-8 py-24">
+            <div class="text-white w-auto lg:w-1/2 pb-16">
+                <h1 class="font-black text-5xl mb-16 sm:leading-tight lg:leading-normal">
+                    Let us begin...</h1>
+                <p class="md:text-lg font-medium mb-16">BigPay needs some information for onboarding your
+                    company. Kindly provide all required documents for review, and select <b>Finish</b> when you're
+                    done.</p>
+                <a class="rounded-md text-lg font-bold border-2 border-white p-4 hover:bg-secondary transition duration-300 ease-in-out "
+                    href="end.html">Finish</a>
+            </div>
+            <div class="container mt-16 bg-white w-auto lg:w-1/2 max-h-96 overflow-hidden overflow-y-scroll rounded-lg">
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Due Diligence Form</p>
+                    <label class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Regulatory License Copy <i>(Certified True Copy)</i></p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Memorandum of Association/Articles of Incorporation or
+                        equivalent <i>(Certified True Copy)</i></p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Certificate of Incorporation body <i>(Certified True Copy)</i></p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Current AML/CTF Policies & Programs duly approved by
+                        the Board of Directors</p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Memorandum of Association/Articles of Incorporation or
+                        equivalent <i>(Certified True Copy)</i></p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Current STR policy
+                    </p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">List of Ultimate beneficial owners <i>(Stamped and Dated)</i></p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">ID Copies of shareholders <i>(Certified True Copy)</i></p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Organizational Chart <i>(Stamped and Dated)</i></p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">List of Board of Directors</p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">ID Copies of Board of Directors <i>(Certified True Copy)</i>
+                    </p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Copy of the list of Authorized Signatories, approved by the Board of
+                        Directors</p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">ID Copy of the Authorized Person who signs the agreement <i>(Certified True
+                            Copy)</i></p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">CCO/MLRD Profile</p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Proof of Business Address or Latest Utility Bill <i>(if different from the
+                            registered address)</i></p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Last Audited Financial Statement</p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Latest AML Audit Report</p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                </div>
+                <div class="md:flex flex-row items-center justify-between border p-4">
+                    <p class="font-bold">Tax Residence Certificate</p>
+                    <label
+                        class=" flex px-1 py-2 bg-primary text-white rounded-full shadow-md">
+                        <span class="px-2">Upload</span>
+                        <input type='file' class="hidden" />
+                    </label>
                 </div>
             </div>
         </div>
     </div>
-    <footer class=" bg-primary py-4 text-center text-white">
+    <footer class="bg-primary py-4 text-center text-white">
         <p>© 2022 Copyright,
             <a href="https://mybigpay.net" class="hover:text-secondary">BigPay Company Ltd.</a>
         </p>
