@@ -13,6 +13,9 @@ module.exports = {
       backgroundImage: {
         'main-bg': "url('/src/assets/bg_colour.png')",
       },
+      downloadIcon: {
+        'dIcon': "url('/src/assets/download.svg')",
+      },
     },
   },
   plugins: [],
