@@ -543,10 +543,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 24rem;
 }
 
-.max-h-48 {
-  max-height: 12rem;
-}
-
 .max-h-96 {
   max-height: 24rem;
 }
@@ -683,6 +679,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .px-1 {
@@ -826,6 +827,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+  }
+
+  .lg\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 
   .lg\:flex {
